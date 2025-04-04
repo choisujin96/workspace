@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+        
+    <head>
+        <title>html 복습하기</title>
+
+        <style>
+           th.red{
+            color: #ff00ff;
+        }
+        </style>
+    </head>
+
+    <body>
+        <h1>수진이의 html 복습일기</h1>
+        <h2>0324 월요일</h2>
+        <!--
+            일기장처럼 활용을 해보잣!!!
+        -->
+        
+        <table border="1">
+            <thead>
+                <tr>
+                    <th class="red">국가</th>
+                    <th>환율</th>
+                </tr>
+            </thead>
+               
+            <tbody>
+                <tr>
+                    <td >대한민국</td>
+                    <td>45.54</td>
+                </tr>
+
+                <tr>
+                    <td>일본</td>
+                    <td>45.54</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    <form>
+        
+        <!--checkbox는 복수선택 가능-->
+        <label for="chk-sujin">수진</label>
+        <input id="chk-sujin" type="checkbox" name="family" value="sujin">
+
+        <label for="chk-umma">엄망</label>
+        <input id="chk-umma" type="checkbox" name="family" value="umma">
+
+        <br><br>
+        
+        <!--radio는 복수선택 불가-->
+        <label for="rdo-sujin">수진</label>
+        <input id="rdo-sujin" type="radio" name="family" value="sujin">
+
+        <label for="rdo-ukho">엄망</label>
+        <input id="rdo-umma" type="radio" name="family" value="umma">
+
+        <br><br>
+    
+        <select name="color">
+            <option value="">색깔을 선택해주세요.</option>
+            <option value="red">레드</option>
+            <option value="purple">보라</option>
+            <option value="yellow">노랑</option>
+        </select>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </form>
+        
+
+    </body>
+</html>
