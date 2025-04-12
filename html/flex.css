@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+
+.container{
+	width: 500px;
+	height: 200px;
+	border: 3px solid #000;
+	margin-bottom: 20px;
+ }
+
+
+
+.container.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+
+.container.column{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: flex-end;
+
+}
+
+
+
+
+
+
+ .item1{
+	border: 3px solid #cc6546;
+ }
+
+ .item2{
+	border: 3px solid #73aae5;
+ }
+
+ .item3{
+	border: 3px solid #85e778;
+ }
